@@ -12,7 +12,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <QRCode value="MATERIA 3;PROFESSOR 3;CACHORRO" size={window.innerHeight*.8} />
+        <QRCode value="MATERIA 3;PROFESSOR 3;CACHORRO;UNITINS" bgColor='#ffffff'fgColor='#222' size={window.innerHeight*.7} />
       </div>
     );
   }
