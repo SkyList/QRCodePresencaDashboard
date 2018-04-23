@@ -1,0 +1,14 @@
+.LoginPage{
+    background-color: black;
+}
+.LoginPage .form-control{
+    border-block-end-width: 0pt;
+}
+.LoginPage .alert{
+    text-align: center;
+}
+.inputArea{
+    padding: 5% 20% 5% 20%;
+    color: aliceblue;
+    
+}

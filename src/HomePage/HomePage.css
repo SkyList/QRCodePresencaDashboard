@@ -1,0 +1,12 @@
+.HomePage{
+    background-color: black;
+}
+.HomePage .col .mx-auto{
+    color: aliceblue;
+}
+.HomePage .img{
+    font-size: .4em;
+}
+.HomePage h4{
+    text-align: center;
+}
