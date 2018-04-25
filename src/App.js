@@ -8,11 +8,16 @@ class App extends Component {
   render() {
     return (
       <Router>
-
         <div className="App">
           <Nav />
-          <Route exact path='/' component={LoginPage}/>
-          <Route exact path='/home' component={HomePage}/>
+          <Route exact path='/' component={LoginPage} />
+          <Route exact path='/home' component={HomePage} />
+
+          <ul className="nav justify-content-center footer">
+            <li className="nav-item">
+              <h1>Presença com Qr code</h1>
+            </li>
+          </ul>
         </div>
       </Router>
     );

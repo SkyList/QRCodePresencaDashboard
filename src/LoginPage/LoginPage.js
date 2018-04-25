@@ -6,6 +6,7 @@ import { Redirect } from 'react-router-dom'
 import HomePage from '../HomePage/HomePage';
 
 
+
 class LoginPage extends Component {
     constructor(props) {
         super(props)
@@ -35,10 +36,10 @@ class LoginPage extends Component {
                     <form onSubmit={this.signinCheck} >
                         <img src={user} alt="User" className="rounded mx-auto d-block mb-5" />
                         <div className="form-group">
-                            <input type="email" className="form-control bg-dark text-white badge-pill border-dark" ref="email" aria-describedby="emailHelp" placeholder="Enter email" />
+                            <input type="email" className="form-control bg-dark text-white badge-pill border-dark text-center" ref="email" aria-describedby="emailHelp" placeholder="Enter email" />
                         </div>
                         <div className="form-group">
-                            <input type="password" className="form-control bg-dark text-white badge-pill border-dark" ref="password" placeholder="Password" />
+                            <input type="password" className="form-control bg-dark text-white badge-pill border-dark text-center" ref="password" placeholder="Password" />
                         </div>
                         <button type="submit" className="btn btn-dark btn-block badge-pill" >Signin</button>
                     </form>

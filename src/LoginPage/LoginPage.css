@@ -7,6 +7,9 @@
 .LoginPage .alert{
     text-align: center;
 }
+.LoginPage .row{
+    text-align: center;
+}
 .inputArea{
     padding: 5% 20% 5% 20%;
     color: aliceblue;
